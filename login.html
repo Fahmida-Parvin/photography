@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body class="body">
+        <section class="header">
+            <h1 id="logo">Photography</h1>
+            <div>
+                   <ul id="navbar">
+                  <li> <a href="home.html">Home</a></li>
+                  <li><a href="Aboutus.html">About Us</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                    <li><a href="login.html">Log In</a> </li>                   
+               
+                </ul>
+            </div>
+        </section>
+        <h1 class="regis">Log In</h1>
+        <form action="#" onsubmit="return formValidate()">
+            <table>
+                <tr>
+                    <td> <label for="email">Email: </label></td>
+                    <td> <input type="email" name="email" id="iemail" required></td>
+                </tr>
+                <tr>
+                    <td> <label for="pass">Password: </label></td>
+                    <td> <input type="password" name="pass" id="ipass" required></td>
+                    <td><span id="epass"></span></td> <!-- Move the span inside a <td> element -->
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" id="sub-btn" name="submit-button" value="Log In"></td>
+                </tr>
+            </table>
+        </form>
+        <script src="login.js"></script>
+</body>
+</html>

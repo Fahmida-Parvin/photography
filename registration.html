@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Photography</title>
+    <script src="reg.js" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body class="body">
+    
+        <section class="header">
+            <h1 id="logo">Photography</h1>
+            <div>
+                   <ul id="navbar">
+                  <li> <a href="home.html">Home</a></li>
+                  <li><a href="Aboutus.html">About Us</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                    <li><a href="login.html">Log In</a> </li>                   
+               
+                </ul>
+            </div>
+        </section>
+    <h1 class="regis">Registration Form</h1>
+    <form action="#" onsubmit="return formValidation()">
+        <table>
+            <tr>
+                <td><label for="fname">First Name: </label></td>
+                <td>  <input type="text" name="fname" id="ifname"></td>
+                <span id="efname"></span>
+
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name: </label></td>
+                <td>  <input type="text" name="lname" id="ilname" required></td>
+                <span id="elname"></span>
+
+            </tr>
+            <tr>
+                <td> <label for="email">Email: </label></td>
+                <td> <input type="email" name="email" id="iemail"></td>
+                <span id="eemail"></span>
+            </tr>
+            <tr>
+                <td> <label for="mobile">Mobile: </label></td>
+                <td> <input type="text" name="mobile" id="imob"></td>
+                <span id="emob"></span>
+      
+            </tr>
+           <tr>
+            <td> <label for="pass">Password: </label></td>
+            <td> <input type="password" name="pass" id="ipass"></td>
+            <span id="epass"></span>
+        
+           </tr>
+            <tr>
+                <td>  <label for="confirmpass">Confirm-Password: </label></td>
+                <td> <input type="password" name="conpass" id="iconpass"></td>
+                <span id="econpass"></span>
+      
+            <br />
+            </tr>
+     
+           <tr>
+            <td colspan="2"><a href="" ><input type="submit" id="sub-btn" name="submit-button" value="Register"></td></a>
+           </tr>
+          
+        </table>
+    </form>
+    
+</body>
+
+</html>
